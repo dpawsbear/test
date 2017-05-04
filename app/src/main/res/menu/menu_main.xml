@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hcyxtech.jetli.test.MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orderInCategory="100"
+        android:text="Search"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="101"
+        android:title="我的天"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="102"
+        android:title="@string/maoyuanfu" />
+    <item
+        android:orderInCategory="103"
+        android:title="@string/kunlongchen" />
+    <item
+        android:orderInCategory="104"
+        android:title="@string/itok" />
+    <item
+        android:id="@+id/app_bar_switch"
+        android:orderInCategory="105"
+        android:title=""
+        app:actionLayout="@layout/switch_item" />
+    <group android:orderInCategory="105" />
+</menu>
